@@ -1,1 +1,6 @@
 # intensivo-ts
+
+Projeto do intensivo de Typescript
+
+npm install
+npm run start

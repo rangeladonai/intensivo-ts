@@ -9,11 +9,11 @@ export default class Account {
     this.person = person;
   }
 
-  getNameFromPerson(): string {
+  public getNameFromPerson(): string {
     return this.person.getName();
   }
 
-  getTypeOfPerson(): string | void {
+  public getTypeOfPerson(): string | void {
     if (this.person instanceof PersonCPF) {
       return "Fisica";
     }

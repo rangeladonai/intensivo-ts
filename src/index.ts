@@ -10,6 +10,6 @@ const PessoaFisica: PersonCPF = new PersonCPF(
 
 const PessoaJuridica: PersonCNPJ = new PersonCNPJ("Rangel", 21, 11191919191);
 
-const contaBancaria = new Account(PessoaFisica);
+const contaBancaria = new Account(PessoaJuridica);
 
 console.log(contaBancaria.getTypeOfPerson());

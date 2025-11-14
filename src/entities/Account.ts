@@ -2,6 +2,13 @@ import PersonInterface from "../interfaces/PersonInterface";
 import PersonCNPJ from "./PersonCNPJ";
 import PersonCPF from "./PersonCPF";
 
+function log() {
+  return (target: any) => {
+    console.log(`executando - ${target}`);
+  };
+}
+
+@log()
 export default class Account {
   person: PersonInterface;
 
